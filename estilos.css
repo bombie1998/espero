@@ -1,0 +1,1247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*  MENU RESPONSIVE */
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 60px;
+    height: 60px;
+    
+}
+
+
+
+header label:hover{
+    cursor: pointer;
+
+}
+
+/* BARRA DE NAVEGACION */
+.mensajeoculto{
+    display: none;
+}
+
+.doc{
+    display: none;
+}
+
+.fantas{
+    width: 100%;
+    height: 70px;
+}
+
+
+
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(235, 235, 235, 0.475);
+    
+}
+nav p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 100px;
+    width: 30%;
+    margin-left: 70px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    line-height: 100px;
+    justify-content: flex-end;
+
+}
+
+nav li{
+    margin-right: 55px;
+}
+
+
+
+nav li a{
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+/*nav{
+    background-color: rgba(235, 235, 235, 0.475);
+    display: flex;
+    height: 100px;
+    width: 100%;
+
+}
+
+nav p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 100px;
+    width: 30%;
+    margin-left: 70px;
+    cursor: pointer;
+
+}
+
+nav p:hover{
+    color: rgb(14, 100, 14);
+    transition-duration: 1s;
+}
+
+nav li{
+    list-style: none;
+    line-height: 70px;
+    font-size: 17px;
+    border-right: 1px solid #fff;
+    
+}
+
+nav ul{
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    
+    
+    
+}
+
+nav a{
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+    padding: 10px 15px; 
+
+
+}
+
+nav a:hover{
+    color: rgb(14, 100, 14);
+    transition-duration: 1s;
+}*/
+
+
+
+
+/* PRIMER SECTION */
+
+.img{
+    width: 100%;
+}
+
+.img img{
+    width: 100%
+}
+
+.primersection{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+.presentacion{
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion h1{
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 100px;
+    font-size: 100px; 
+    color: rgb(60, 60, 60);
+}
+
+.centrado{
+    text-align: justify;
+    height: 470px;
+    width: 600px;
+
+    
+}
+
+.bbr{
+    display: none;
+}
+
+
+
+.parrapresentacion{  
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(52, 52, 52);
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.doctora{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(52, 52, 52);
+    margin-top: 33px;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+
+/* SEGUNDO SECTION */
+
+.segundosection{
+    background-color: rgb(222, 230, 226);
+    width: 100%;
+    height: 750px;
+    display: flex;
+}
+
+.segundocontenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.primeraparte{
+    margin-top: 110px;
+
+
+}
+
+
+.segundocontenedor .primeraparte .titulo{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+}
+.segundocontenedor .primeraparte hr{
+    margin: 30px 0 45px 0;
+    width: 70px;
+    height: 1px;
+    border: 1px solid rgb(113, 113, 113);  
+}
+
+.segundocontenedor .primeraparte p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 24px;
+    text-align: justify;
+    
+}
+
+.segundaparte{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.segundaclase{
+    width: 600px;
+}
+
+
+.segundaparte .segundaclase p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(52, 52, 52);
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+
+}
+
+#btn-segundosection{
+    cursor: pointer;
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    height: 43px;
+    background-color: rgb(143, 163, 155);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+#btn-segundosection:hover{
+    background-color: rgb(4, 3, 3);
+    transition-duration: 1s;
+    color: white;
+}
+
+/* TERCER SECTION */
+
+.tercersection{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+}
+
+.informacion{
+
+    height: 921px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.parrafos{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    display: flex;
+    margin: 40px 0;
+}
+
+.telefonos{
+    margin-left: 120px;
+}
+
+.centrado2 hr{
+    margin: 35px 0;
+    width: 60px;
+    height: 0.6px;
+    border: 0.5px solid  rgb(164, 164, 164);
+
+}
+
+.a{
+    display: none;
+}
+
+.centrado2 .pepe{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 30px;
+}
+
+.centrado2 p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+#btn-nombre{
+    padding-left: 12px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    width: 285px;
+    border: none;
+    height: 50px;
+    margin-bottom: 18px;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.segundaimg{
+    width: 100%;
+}
+
+
+.segundaimg img{
+    display: block;
+    margin: auto;
+    
+}
+
+
+#btn-nombre:hover{
+    background-color: rgb(226, 245, 247);
+    color: black;
+}
+
+#btn-email{padding-left: 12px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    margin-left: 25px;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    width: 285px;
+    outline: none;
+    
+}
+
+#btn-email:hover{
+    background-color: rgb(226, 245, 247);
+    color: black;
+}
+
+#btn-mensaje{padding-left: 12px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+    border: none;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 12px;
+    padding-bottom: 100px;
+    outline: none;  
+    resize: none;
+}
+
+#btn-mensaje:hover{
+    background-color: rgb(226, 245, 247);
+    color: black;
+}
+
+
+
+#btn-enviar{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    width: 100%;
+    background-color: rgb(143, 163, 155);
+
+}
+
+
+#btn-enviar:hover{
+    background-color: rgb(4, 3, 3);
+    transition-duration: 1s;
+    color: white;
+}
+
+/* PIE DE PAGINA */
+
+footer{
+    width: 100%;
+    background-color: rgb(65, 72, 69);
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(240, 240, 240);
+}
+
+
+/* SEGUNDA PAGINA */
+
+
+
+.centrado22 .orientacion{
+    margin-top: 120px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 22px;
+}
+
+.centrado22 .orientacion2{
+    margin-top: 70px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 22px;
+}
+
+.centrado2{
+    width: 600px;
+
+}
+
+.centrado22 p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 15px;
+    line-height: 33px;
+}
+
+.centrado22 hr{
+    margin: 30px 0;
+    width: 50px;
+    height: 1px;
+    border: 1px solid rgb(169, 169, 169);
+}
+
+.centrado22 .especializacion{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size:35px;
+    margin-top: 120px;
+    
+}
+
+.centrado2 .textopepe{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(61, 61, 61);
+    line-height: 32px;
+    font-size: 15px;
+}
+
+/* SEGUNDA PAGINA */
+.pprimersection{
+    display: flex;
+}
+
+.informacionn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.masetero{
+    width: 100%;
+}
+
+.holawebp{
+    width: 100%;
+}
+
+.holawebp img{
+    width: 100%;
+}
+
+.tercersection2{
+    display: flex;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1300px){
+
+    header{
+        box-shadow:  0px  0px  10px rgba(0, 0, 0, 0.384);
+    }
+
+    /*nav li{
+        line-height: 100px;
+        margin: 0 10px;
+        font-size: 17px;
+        
+    }
+    nav a{
+        font-size: 25px;
+    }
+
+    nav ul{
+        margin: 0;
+        justify-content: center;
+    }
+
+    nav{
+        position: absolute;
+        background: red;
+        width: 50%;
+        margin-left: -70%;
+        transition: all 1s;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav li{
+        border-top: 1px solid black;
+    }
+
+    #btn-menu:checked ~ nav{
+        margin-top: 35%; 
+        margin-left: 0%;
+    }*/
+
+
+    header{
+        background-color: rgb(255, 255, 255);
+        height: 150px;
+        position: fixed;
+        width: 100%;
+    }
+
+    nav li a{
+        display: block;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        bottom:  60px;
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        margin-left: -70%;  
+        transition: all 1s;
+
+    }
+
+    .mensajeoculto{
+        display: block;
+        margin-top: 130px;
+        margin-bottom: 100%;
+        border-top: none;
+        width: 97%;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+    }
+
+
+    nav ul{
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        list-style: none;
+        display: flex;
+        line-height: 0;
+        flex-direction: column;
+        width: none;
+        
+    }
+
+
+    nav li{
+        border-top: 1px solid rgba(0, 0, 0, 0.299);
+        text-align: center;
+        width: 85%;
+        padding: 30px 0;
+        margin: auto;
+        
+    }
+    .inicio{
+        border-top: none;
+    }
+
+    nav a{
+        display: block;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 30px 30px;
+        border-right: none;
+        border-left: none;
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+        
+    }
+  
+
+    header .doc{
+        display: flex;
+        justify-content: center;
+        line-height: 150px;
+        font-size: 45px;
+        font-weight: 100   ;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .img{
+        width: 70%;
+        margin: auto;
+    }
+    
+
+    nav p{
+        display: none;
+    }
+
+    #btn-menu:checked ~ nav{
+        margin: 0;
+    }
+
+
+
+    .primersection{
+        display: inline-block;
+        
+    }
+
+    .primersection .img{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+
+   
+
+    .primersection .presentacion{
+        height: 670px;
+        margin-top: -130px;
+    }
+
+    .presentacion h1{
+        margin-top: 50px;
+        text-align: center;
+        
+    }
+
+    .doctora{
+        text-align: center;
+        margin: 40px auto;   
+        width: 500px;
+        font-size: 40px;
+        border:  1px  solid black;
+        border-left: none;
+        border-right: none;
+        padding: 15px 0;
+
+    }
+
+    
+
+    .parrapresentacion{
+        width: 100%;
+        height: 250px;
+        margin: auto;
+        text-align: justify;
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .salto{
+        display: none;
+    }
+
+    .segundosection{
+        height: 1500px;
+        display: block;
+    }
+
+    .segundaclase{
+        width: 700px;
+    }
+    
+    .segundocontenedor{
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .segundocontenedor .primeraparte{
+        width: 700px;
+
+    }
+
+    .segundocontenedor .primeraparte .titulo{
+        font-size: 60px;
+    }
+
+
+    .segundocontenedor .primeraparte hr{
+        margin: auto;  
+        width: 100px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .segundocontenedor .primeraparte p{
+        text-align: center;
+
+        font-size: 38px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .segundaparte .segundaclase p{
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .terapia{
+        display: none;
+    }
+
+    .segundocontenedor .segundaparte p{
+        width: 800px;
+        margin: 30px auto;
+        font-size: 38px;
+        margin-top: 80px;
+        line-height: 60px;
+        text-align: justify;
+        
+    
+    }
+
+    #btn-segundosection{
+        margin-top: 30px;
+        cursor: pointer;
+        width: 400px;
+        height: 73px;
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .botonsito{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tercersection{
+        
+        display: block;
+        height: 2300px;
+    }
+
+
+
+    .tercersection .segundaimg{
+        width: 100%;
+        height: 970px;
+    }
+
+    .informacion{
+        background-color: rgb(222, 230, 226);
+        height: 1300px;
+        width: 100%;
+      
+    }
+    .centrado2{
+        margin: auto;
+        width: 700px;
+
+    }
+
+    .centrado2 .pepe{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .centrado h1{
+        display: none;
+    }
+
+    .centrado2 hr{
+        margin: 30px auto;
+        width: 100px;
+        
+    }
+
+    
+
+    .centrado2 p{
+        margin: auto;
+        line-height: 50px;
+        font-size: 32px;
+        text-align: justify;
+    }
+    .a{
+        display: none;
+    }
+    
+    .parrafos{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .parrar{
+        display: none;
+    }
+
+    .parrafos p{
+        margin-top: 50px;
+    }
+
+    .parrafos .telefonos{
+        word-spacing: 30px;
+        width: 600px;
+    }
+
+    #btn-nombre{
+        margin-top: 60px;
+        margin-bottom: 30px;
+        width: 335px;
+        height:70px;
+        font-size: 30px;
+
+    }
+    #btn-email{
+        width: 335px;
+        height:70px;
+        font-size: 30px;
+        
+    }
+    #btn-mensaje{
+        width:100%;
+        height:300px;
+        margin: auto;
+        font-size: 30px;
+        
+    }
+    
+
+    .form{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    #btn-enviar{
+        margin-top: 40px;
+        width: 300px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    footer{
+        height: 80px;
+        font-size: 30px;
+    }
+
+    header label{
+        display: flex;
+        margin-left: 40px;
+        position: relative;
+        bottom:100px;
+    }
+    .bbr{
+        display: none;
+    }
+
+    .parrafos .pp{
+        text-align: center ;
+    }
+
+    /* SEGUNDA PAGINA */
+
+    .pprimersection{
+        width: 100%;
+    }
+
+
+}
+
+
+@media (max-width:910px){
+
+    .label{
+        position: relative;
+        top: 25px;
+        width: 50px;
+        height: 50px;
+    }
+
+    header p{
+        display: none;
+        
+    }
+
+    header{
+        height: 100px;
+    }
+
+    header .doc{
+        margin-left: 10px;
+        justify-content: center;
+        font-size: 30px;
+        line-height: 100px;
+    }
+
+    header{
+        box-shadow:  0px  0px  10px rgba(0, 0, 0, 0.384);
+    }
+
+    nav li a{
+        font-size:20px ;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    nav li{
+        padding: 0;
+        width: 100%;
+    }
+    
+
+    .mensajeoculto{
+        font-size: 17px;
+        margin-bottom: 100%;
+    }
+
+    .primersection{
+        height: 1100px;
+    }
+
+    .doctora{
+        font-size: 30px;
+        width: 100%;
+
+    }
+
+    .centrado{
+        margin-top: 120px;
+        width: 400px;
+        height: 600px;
+    }
+
+    .parrapresentacion{
+        font-size: 25px;
+    }
+
+    .segundocontenedor .primeraparte .titulo{
+        font-size: 40px;
+    }
+    .segundocontenedor .primeraparte p{
+        font-size: 30px;
+    }
+
+    .segundaparte .segundaclase p{
+        font-size: 25px;
+    }
+
+    .segundaparte .segundaclase{
+        width: 400px;
+
+    }
+
+    .segundaimg{
+        width: 100%;
+    }
+
+    .segundaimg .planti{
+        margin: auto;
+        width: 100%;
+    }
+
+    .centrado2 .pepe{
+        font-size: 40px;
+    }
+
+    .centrado2{
+        width: 400px;
+        margin-top: 90px;
+        
+    }
+
+    .centrado2 p{
+        font-size: 25px;
+    }
+
+    .centrado2 .parrafos .telefonos{
+        width: 400px;
+        text-align: center;
+    }
+
+    #btn-email{
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #btn-nombre{
+        width: 100%;
+        
+    }
+
+    .tercersection{
+        height: 2650px;
+    }
+
+    .informacion{
+        height: 1700px;
+    }
+
+    .segundosection{
+        height: 1250px;
+       
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+
+
+}
+@media (max-width:600px){
+    nav {
+        width: 100%;
+        margin-left: -100%;
+    }
+
+    nav li a{
+        font-size: 20px;
+        margin-bottom:25px;
+        margin-top: 25px;
+    }
+    nav li{
+        width:70%;
+    }
+
+}
+
+@media (max-width:460px){
+
+    .label{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        left: -20px;
+        margin-top: 25px;
+    }
+    nav{
+        width: 100%;
+        margin-left: -100%;
+    }
+
+    header{
+        height:70px;
+    }
+
+    nav li a{
+        font-size: 17px;
+        margin-bottom:25px;
+        margin-top: 25px;
+    }
+
+    .mensajeoculto{
+        font-size: 25px
+    }
+
+    nav li{
+        width:75%;
+    }
+
+    header .doc{
+        font-size: 20px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 30px;
+        line-height: 70px;
+    }
+
+    .primersection .img{
+        width: 100%;
+    }
+
+    .centrado .doctora{
+        font-size: 22px;
+        width: 280px;
+    }
+
+    .centrado .parrapresentacion {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .centrado{
+        width: 300px;
+       
+    }
+
+    .segundocontenedor.primeraparte{
+        width: 300px;
+    }
+
+    .segundaparte .segundaclase{
+        width: 300px;
+    }
+
+    .segundocontenedor .primeraparte{  
+        width: 300px;
+
+    }
+
+    .segundocontenedor .primeraparte .titulo{
+        font-size: 22px;
+
+    }
+
+    .segundocontenedor .primeraparte p{
+        font-size: 22px;
+    }
+
+    .segundaparte .segundaclase p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .botonsito{
+        width:200px;
+        margin: auto;
+    }
+
+    #btn-segundosection{
+        width: 300px;
+    }
+
+    .centrado2{
+        width: 300px;
+    }
+
+    .centrado2 .pepe{
+        font-size: 22px;
+    }
+
+    .centrado2 p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .centrado2 .parrafos .telefonos{
+        width:300px;
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+
+    #btn-enviar{
+        width: 100%;
+    }
+    .tercersection{
+        height: 2000px;
+    }
+
+    .tercersection .informacion{
+        height: 1400px;
+    }
+
+    .tercersection .segundaimg{
+        height: 600px;
+    }
+
+    .segundocontenedor .primeraparte{
+        margin-top: 50px;
+    }
+
+    .primersection .presentacion .centrado{
+        height: 400px;
+        margin-top: 0px;
+    }
+
+    .primersection .presentacion {
+        height: 500px;
+        margin-top: 3px;
+
+    }
+
+    .segundocontenedor .primeraparte hr{
+        margin: 20px auto;
+    }
+
+    .segundocontenedor .primeraparte .titulo{
+        margin-bottom:0px;
+    }
+
+   
+
+}
+
+
+
+
